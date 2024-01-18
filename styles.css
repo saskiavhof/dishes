@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#animation-container {
+    overflow: hidden;
+}
+
+.dish-image {
+    height: 100vh;
+    object-fit: cover;
+    display: none;
+}
+
+#info-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info-container p {
+    margin: 10px;
+}
